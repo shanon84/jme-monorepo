@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: "jme-micronaut"
+  server:
+    port: 8080
+jme:
+  app:
+    title: "${micronaut.application.name}"
+    resolutionWidth: 1290
+    resolutionHeight: 900

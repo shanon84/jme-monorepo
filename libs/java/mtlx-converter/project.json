@@ -1,0 +1,13 @@
+{
+  "name": "mtlx-converter",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "./mtlx-converter/src",
+  "targets": {
+    "build-BE": {},
+    "unittest-BE": {},
+    "integrationtest-BE": {},
+    "format-BE": {}
+  },
+  "tags": []
+}
