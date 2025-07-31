@@ -1,0 +1,17 @@
+Material MyRockMaterial : Common/MatDefs/Light/PBRLighting.j3md {
+    MaterialParameters {
+        BaseColorMap : materialfolder/Rock032_1K-PNG_Color.png
+        NormalMap : materialfolder/Rock032_1K-PNG_NormalGL.png
+        RoughnessMap : materialfolder/Rock032_1K-PNG_Roughness.png
+        ParallaxMap : materialfolder/Rock032_1K-PNG_Displacement.png
+
+        BaseColor : 1 1 1 1
+        Roughness : 1.0
+        Metallic : 0.0
+
+        ParallaxHeight : 0.05
+    }
+    AdditionalRenderState {
+        FaceCull Off
+    }
+}

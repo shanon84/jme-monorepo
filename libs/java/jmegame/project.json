@@ -1,0 +1,13 @@
+{
+  "name": "jmegame",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "./jmegame/src",
+  "targets": {
+    "build-BE": {},
+    "unittest-BE": {},
+    "integrationtest-BE": {},
+    "format-BE": {}
+  },
+  "tags": []
+}

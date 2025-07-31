@@ -20,6 +20,6 @@
         <module>app-parent</module>
         <module>dependencies</module>
         <module>parent</module>
-        <module>rest</module>
+        <module>jme-parent</module>
     </modules>
 </project>

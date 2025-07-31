@@ -171,9 +171,16 @@
                             <version>${micronaut.serialization.version}</version>
                         </path>
                         <path>
-                            <groupId>io.micronaut</groupId>
+                            <groupId>io.micronaut.validation</groupId>
                             <artifactId>micronaut-validation</artifactId>
                             <version>${micronaut.validation.version}</version>
+                        </path>
+                        <path>
+                            <dependency>
+                                <groupId>io.micronaut.validation</groupId>
+                                <artifactId>micronaut-validation-processor</artifactId>
+                                <version>${micronaut.validation.version}</version>
+                            </dependency>
                         </path>
                     </annotationProcessorPaths>
                     <compilerArgs>
